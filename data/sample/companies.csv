@@ -1,0 +1,22 @@
+ticker,name,exchange,sector,country,report_url
+EMAAR,Emaar Properties,DFM,Real Estate,UAE,
+DEWA,Dubai Electricity & Water Authority,DFM,Utilities,UAE,https://feeds.dfm.ae/documents//2023/Mar/09/0c246b2a-89c6-4759-9e33-6052da47a85e/DEWA_Integrated_Report_E_2022_final.pdf
+EMIRATESNBD,Emirates NBD,DFM,Banking,UAE,https://cdn.emiratesnbd.com/assets/pdf/esg_data_pack_2024.pdf
+DIB,Dubai Islamic Bank,DFM,Banking,UAE,
+SALIK,Salik Company,DFM,Transport Infrastructure,UAE,
+ETISALAT,e& (Etisalat Group),ADX,Telecom,UAE,https://www.eand.com/content/dam/eand/assets/docs/latest-announcements/2024/eandSR23-English-compressed.pdf
+FAB,First Abu Dhabi Bank,ADX,Banking,UAE,https://argaamplus.s3.amazonaws.com/f1108c82-d42c-4493-99c8-394cbb2ea56d.pdf
+ADNOCDIST,ADNOC Distribution,ADX,Energy,UAE,
+ALDAR,Aldar Properties,ADX,Real Estate,UAE,
+MASDAR,TAQA (Abu Dhabi National Energy),ADX,Utilities,UAE,
+ARAMCO,Saudi Aramco,TADAWUL,Energy,KSA,
+SABIC,SABIC,TADAWUL,Chemicals,KSA,
+STC,stc Group,TADAWUL,Telecom,KSA,
+ALRAJHI,Al Rajhi Bank,TADAWUL,Banking,KSA,
+MAADEN,Ma'aden,TADAWUL,Mining,KSA,
+QNB,Qatar National Bank,QSE,Banking,QATAR,
+IQCD,Industries Qatar,QSE,Industrials,QATAR,
+ORDS,Ooredoo,QSE,Telecom,QATAR,
+KFH,Kuwait Finance House,BK,Banking,KUWAIT,
+ZAIN,Zain Group,BK,Telecom,KUWAIT,
+ADIB,Abu Dhabi Islamic Bank,ADX,Banking,UAE,https://www.adib.ae/-/media/project/adib/adibsite/docs/esg-and-sustainability/reports/sustainability-report-2024-en.pdf

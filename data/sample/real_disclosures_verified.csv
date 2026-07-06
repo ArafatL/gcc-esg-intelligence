@@ -1,0 +1,2 @@
+ticker,name,exchange,sector,country,report_year,scope1_emissions_tco2e,scope2_emissions_tco2e,scope3_emissions_tco2e,energy_consumption_mwh,water_consumption_m3,renewable_energy_pct,female_workforce_pct,board_independence_pct,emiratisation_pct,fw_gri,fw_tcfd,fw_issb_ifrs_s,fw_sasb,fw_cdp,fw_un_sdg,fw_net_zero_target,fw_assurance,source_url,verification_status
+EMIRATESNBD,Emirates NBD,DFM,Banking,UAE,2024,757.78,36271.17,199795.04,83631.58,221633.95,,41,,36,True,True,True,,,,,True,https://cdn.emiratesnbd.com/assets/pdf/esg_data_pack_2024.pdf,extracted_pending_human_check

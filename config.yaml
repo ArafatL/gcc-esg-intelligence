@@ -1,0 +1,8 @@
+project: esgintel
+version: 0.1.0
+registry_path: data/sample/companies.csv
+raw_dir: data/raw
+processed_dir: data/processed
+llm:
+  enabled: false
+  model: claude-haiku-4-5-20251001

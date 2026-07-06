@@ -1,0 +1,21 @@
+ticker,name,exchange,sector,country,scope1_emissions_tco2e,scope2_emissions_tco2e,scope3_emissions_tco2e,energy_consumption_mwh,water_consumption_m3,renewable_energy_pct,female_workforce_pct,board_independence_pct,emiratisation_pct,fw_gri,fw_tcfd,fw_issb_ifrs_s,fw_sasb,fw_cdp,fw_un_sdg,fw_net_zero_target,fw_assurance
+EMAAR,Emaar Properties,DFM,Real Estate,UAE,42000,118000,,310000,2400000,8,31,55,34,True,True,False,False,False,True,True,False
+DEWA,Dubai Electricity & Water Authority,DFM,Utilities,UAE,28900000,150000,4200000,42000000,,14,22,60,89,True,True,True,False,True,True,True,True
+EMIRATESNBD,Emirates NBD,DFM,Banking,UAE,5100,61000,890000,98000,410000,5,42,64,38,True,True,True,True,True,True,True,True
+DIB,Dubai Islamic Bank,DFM,Banking,UAE,3800,44000,,71000,,3,39,58,41,True,False,False,False,False,True,False,False
+SALIK,Salik Company,DFM,Transport Infrastructure,UAE,900,7600,,14000,31000,,28,66,55,True,False,False,False,False,True,False,False
+ETISALAT,e& (Etisalat Group),ADX,Telecom,UAE,61000,540000,1200000,1150000,690000,11,27,54,44,True,True,True,False,True,True,True,True
+FAB,First Abu Dhabi Bank,ADX,Banking,UAE,6900,72000,1500000,120000,520000,7,40,63,40,True,True,True,True,True,True,True,True
+ADNOCDIST,ADNOC Distribution,ADX,Energy,UAE,210000,145000,,690000,410000,4,18,50,60,True,True,False,False,False,True,True,False
+ALDAR,Aldar Properties,ADX,Real Estate,UAE,38000,96000,610000,270000,1900000,9,33,57,37,True,True,True,False,True,True,True,True
+MASDAR,TAQA (Abu Dhabi National Energy),ADX,Utilities,UAE,31200000,180000,,46000000,,12,21,55,62,True,True,False,False,True,True,True,False
+ARAMCO,Saudi Aramco,TADAWUL,Energy,KSA,51000000,17000000,,,,,21,45,,True,True,True,True,True,True,True,True
+SABIC,SABIC,TADAWUL,Chemicals,KSA,24000000,11000000,31000000,89000000,110000000,6,12,45,,True,True,False,True,True,True,True,True
+STC,stc Group,TADAWUL,Telecom,KSA,88000,610000,,1600000,780000,9,20,45,,True,True,False,False,True,True,True,False
+ALRAJHI,Al Rajhi Bank,TADAWUL,Banking,KSA,7100,89000,,140000,,2,24,50,,True,False,False,False,False,True,False,False
+MAADEN,Ma'aden,TADAWUL,Mining,KSA,6800000,4100000,,21000000,34000000,3,8,40,,True,True,False,False,True,True,True,False
+QNB,Qatar National Bank,QSE,Banking,QATAR,4900,58000,,96000,240000,4,31,50,,True,True,False,False,False,True,False,True
+IQCD,Industries Qatar,QSE,Industrials,QATAR,9200000,3800000,,26000000,41000000,2,7,40,,True,False,False,False,False,True,False,False
+ORDS,Ooredoo,QSE,Telecom,QATAR,52000,480000,,1000000,410000,6,25,50,,True,True,False,False,True,True,True,False
+KFH,Kuwait Finance House,BK,Banking,KUWAIT,4100,49000,,82000,,2,28,45,,True,False,False,False,False,True,False,False
+ZAIN,Zain Group,BK,Telecom,KUWAIT,47000,410000,,880000,350000,5,26,50,,True,True,False,False,True,True,True,False
