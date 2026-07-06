@@ -24,11 +24,13 @@ BAND_COLORS = {"Leader": "#1a9850", "Advanced": "#66bd63",
                "Developing": "#fdae61", "Minimal": "#d73027"}
 
 
+PROCESSED = ROOT / "data" / "processed" / "scored_disclosures.csv"
+
+
 @st.cache_data
 def load_data() -> pd.DataFrame:
-    processed = ROOT / "data" / "processed" / "scored_disclosures.csv"
-    if processed.exists():
-        return pd.read_csv(processed)
+    if PROCESSED.exists():
+        return pd.read_csv(PROCESSED)
     raw = pd.read_csv(ROOT / "data" / "sample" / "sample_disclosures.csv")
     return score_dataframe(raw)
 
@@ -36,10 +38,15 @@ def load_data() -> pd.DataFrame:
 df = load_data()
 
 st.title("🌍 ESGIntel — GCC ESG Disclosure Intelligence")
+if PROCESSED.exists():
+    source_note = ("Scores extracted from real company reports "
+                   "(automated extraction, pending human verification).")
+else:
+    source_note = ("Demo values are synthetic — run the pipeline on real "
+                   "reports to replace them.")
 st.caption(
     "Open-source disclosure-quality scoring for GCC-listed companies. "
-    "Demo values are synthetic — run the pipeline on real reports to replace them. "
-    "Built by Arafat Lakhani."
+    f"{source_note} Built by Arafat Lakhani."
 )
 
 # ── Sidebar filters ─────────────────────────────────────────────
