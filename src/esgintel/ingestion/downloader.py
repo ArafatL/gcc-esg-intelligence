@@ -19,7 +19,7 @@ from esgintel.utils.io import RAW_DIR
 log = logging.getLogger("esgintel.downloader")
 
 HEADERS = {
-    "User-Agent": "ESGIntel/0.1 (open-source research; contact: your-email)"
+    "User-Agent": "ESGIntel/0.1 (open-source research; contact: arafatilakhani@gmail.com)"
 }
 
 

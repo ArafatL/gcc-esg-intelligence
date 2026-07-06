@@ -21,7 +21,7 @@ Company Registry ──▶ Report Downloader ──▶ PDF Text Extraction
 ## Quickstart
 
 ```bash
-git clone https://github.com/arafat-lakhani/gcc-esg-intelligence
+git clone https://github.com/ArafatL/gcc-esg-intelligence
 cd gcc-esg-intelligence
 pip install -r requirements.txt
 
@@ -55,6 +55,7 @@ Bands: **Leader** ≥ 75 · **Advanced** ≥ 50 · **Developing** ≥ 25 · **Mi
 
 ## Roadmap
 
+- [x] Verified report URLs for all 21 registry companies (see `docs/EXTRACTION_LOG.md`)
 - [ ] Expand registry to 100+ GCC companies with verified report URLs
 - [ ] Multi-year time series (2020–2025) for disclosure-trend analysis
 - [ ] Arabic-language report support

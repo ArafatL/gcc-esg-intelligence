@@ -1,22 +1,22 @@
 ticker,name,exchange,sector,country,report_url
-EMAAR,Emaar Properties,DFM,Real Estate,UAE,
+EMAAR,Emaar Properties,DFM,Real Estate,UAE,https://properties.emaar.com/wp-content/uploads/2025/03/Emaar-Properties-IR-2024_English_F.pdf
 DEWA,Dubai Electricity & Water Authority,DFM,Utilities,UAE,https://feeds.dfm.ae/documents//2023/Mar/09/0c246b2a-89c6-4759-9e33-6052da47a85e/DEWA_Integrated_Report_E_2022_final.pdf
 EMIRATESNBD,Emirates NBD,DFM,Banking,UAE,https://cdn.emiratesnbd.com/assets/pdf/esg_data_pack_2024.pdf
-DIB,Dubai Islamic Bank,DFM,Banking,UAE,
-SALIK,Salik Company,DFM,Transport Infrastructure,UAE,
+DIB,Dubai Islamic Bank,DFM,Banking,UAE,https://www.dib.ae/docs/default-source/pdf/sustainability/dib-sustainability-report-2024-website.pdf?sfvrsn=38b63797_5
+SALIK,Salik Company,DFM,Transport Infrastructure,UAE,https://ar2024.salik.ae/download/full-reports/ar_en_annual-report_pages_salik_2024.pdf
 ETISALAT,e& (Etisalat Group),ADX,Telecom,UAE,https://www.eand.com/content/dam/eand/assets/docs/latest-announcements/2024/eandSR23-English-compressed.pdf
 FAB,First Abu Dhabi Bank,ADX,Banking,UAE,https://argaamplus.s3.amazonaws.com/f1108c82-d42c-4493-99c8-394cbb2ea56d.pdf
-ADNOCDIST,ADNOC Distribution,ADX,Energy,UAE,
-ALDAR,Aldar Properties,ADX,Real Estate,UAE,
-MASDAR,TAQA (Abu Dhabi National Energy),ADX,Utilities,UAE,
-ARAMCO,Saudi Aramco,TADAWUL,Energy,KSA,
-SABIC,SABIC,TADAWUL,Chemicals,KSA,
-STC,stc Group,TADAWUL,Telecom,KSA,
-ALRAJHI,Al Rajhi Bank,TADAWUL,Banking,KSA,
-MAADEN,Ma'aden,TADAWUL,Mining,KSA,
-QNB,Qatar National Bank,QSE,Banking,QATAR,
-IQCD,Industries Qatar,QSE,Industrials,QATAR,
-ORDS,Ooredoo,QSE,Telecom,QATAR,
-KFH,Kuwait Finance House,BK,Banking,KUWAIT,
-ZAIN,Zain Group,BK,Telecom,KUWAIT,
+ADNOCDIST,ADNOC Distribution,ADX,Energy,UAE,https://www.adnocdistribution.ae/-/media/adnoc-distribution/esg/adnoc-distribution-esg-report-2024-english-f.pdf
+ALDAR,Aldar Properties,ADX,Real Estate,UAE,https://static.mubasher.info/File.Mix_Announcement_File/24F86B5A-6A8D-4038-88D5-7787D6C74E80.pdf
+MASDAR,TAQA (Abu Dhabi National Energy),ADX,Utilities,UAE,https://static.mubasher.info/File.Mix_Announcement_File/787F9533-55EE-4A25-86F6-AF1C54F340A1.pdf
+ARAMCO,Saudi Aramco,TADAWUL,Energy,KSA,https://argaamplus.s3.amazonaws.com/f31184c6-ed19-419e-935d-87703c3da877.pdf
+SABIC,SABIC,TADAWUL,Chemicals,KSA,https://www.sabic.com/en/Images/SABIC-Integrated-Annual-Report-2024-EN_tcm1010-46870.pdf
+STC,stc Group,TADAWUL,Telecom,KSA,https://www.stc.com/content/dam/groupsites/en/pdf/SustainabilityReport-2024-en.pdf
+ALRAJHI,Al Rajhi Bank,TADAWUL,Banking,KSA,https://www.alrajhibank.com.sa/ir24/services/pdf/Al_Rajhi_Bank_AR2024_English.pdf
+MAADEN,Ma'aden,TADAWUL,Mining,KSA,https://axvpvthrjz64.compat.objectstorage.me-jeddah-1.oraclecloud.com/maaden-website-assets/reports/sustainability-reports/maaden--sustainabilty-report-2024-31.pdf
+QNB,Qatar National Bank,QSE,Banking,QATAR,https://qnb.com/sites/qnb/qnbqatar/document/en/enSustainabilityPerformanceData
+IQCD,Industries Qatar,QSE,Industrials,QATAR,https://iq.com.qa/media/uexdt5va/iq-2021-sustainability-report-english.pdf
+ORDS,Ooredoo,QSE,Telecom,QATAR,https://www.ooredoo.com/wp-content/uploads/2025/05/2024-ESG-Report_Ooredoo.pdf
+KFH,Kuwait Finance House,BK,Banking,KUWAIT,https://www.kfh.com/dam/jcr:c938b7d5-506e-4c8e-b05f-5f2da9f9cc5d/KFH%20Sustainability%20Report%202024.pdf
+ZAIN,Zain Group,BK,Telecom,KUWAIT,https://zain.com/SR2024/wp-content/uploads/ZAIN-SR-2024-EN.pdf
 ADIB,Abu Dhabi Islamic Bank,ADX,Banking,UAE,https://www.adib.ae/-/media/project/adib/adibsite/docs/esg-and-sustainability/reports/sustainability-report-2024-en.pdf
