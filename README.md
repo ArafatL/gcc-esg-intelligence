@@ -62,9 +62,5 @@ Bands: **Leader** ≥ 75 · **Advanced** ≥ 50 · **Developing** ≥ 25 · **Mi
 - [ ] ML disclosure-gap prediction (which companies will disclose Scope 3 next?)
 - [ ] Public hosted dashboard + downloadable dataset releases
 
-## Author
-
-**Arafat Lakhani** — Data & AI Analyst (Dubai, UAE) · AI × Sustainability × Finance
-[LinkedIn](https://www.linkedin.com/in/arafat-lakhani/) · arafatilakhani@gmail.com
 
 MIT License — contributions and issue reports welcome.
