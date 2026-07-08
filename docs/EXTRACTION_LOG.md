@@ -1,5 +1,47 @@
 # Extraction Tuning Log
 
+## Session 3 — 2026-07-08 (Fable-assisted): human verification pass
+
+**All 21 registry rows are now `human_verified`** in
+`data/sample/real_disclosures_verified.csv`. Every extracted value was
+reviewed against its evidence snippet and source URL by Arafat; decisions
+below. Of 38 auto-extracted values, 18 were confirmed as-is or with unit
+corrections, 20 were rejected as artifacts.
+
+**Recurring artifact classes (pattern-tuning backlog):**
+1. **Target-vs-actual** — regex catches aspiration statements (DEWA "target
+   to source 100%", ADNOC Dist 25% reduction goal, e& 43% reduction).
+2. **Column fusion** — multi-year table columns fuse into one number
+   (stc Scope 3 "911,608 778,466", QNB kWh, Ooredoo "100 100 100.00%").
+3. **Wrong entity/scope** — subsidiary or project values attributed to the
+   group (Salik toll-gate solar, Ooredoo Maldives board, ADIB jet-fuel 80%,
+   Al Rajhi CSP project, QAFCO water reduction).
+4. **Header capture** — "Scope 2 (tCO2e)" headers yield value 2 (KFH).
+5. **Unit-scale misses** — Aramco reports Mt not t (corrected ×10^6);
+   line-wrap truncation (Al Rajhi 148 vs 1,486.09).
+
+**Human corrections recorded (flag when publishing):**
+- ARAMCO Scope 1/2 converted Mt→t (56,100,000 / 18,500,000 tCO2e).
+- DIB Scope 3 = 62.44 tCO2e is *business travel only* (kept by choice);
+  energy corrected to DIB UAE total 19,210.335 MWh.
+- SALIK renewable 21% is the Jebel Ali pilot gate share (kept by choice).
+- STC Scope 1 = 174,870 tCO2e is a human reading of the KSA column in a
+  garbled table — respot-check against p. of SR2024 before publication.
+- MAADEN renewable = 0.1% (middle column read as latest actual of 0%/0.1%/10%).
+- QNB water 1,292,012 m3 manually transcribed from evidence (regex missed);
+  energy de-fused to 115,024.954 MWh.
+- KFH energy corrected to 2024 figure 54,681.051 MWh (regex took 2023).
+- ZAIN renewable corrected 90.94%→9.06% (sentence lists fossil first).
+- SABIC net-zero flag left false: report says "carbon neutrality" — add
+  synonym to FRAMEWORK_KEYWORDS in a future pattern release.
+- ALDAR & SABIC: zero quantitative hits despite rich disclosure —
+  top pattern-tuning targets.
+
+**Post-verification macros** (analysis.py on the verified set): n=21,
+mean DQS 40.5, median 37.5, sd 13.4, max 70.0, min 15.0; Scope 3 disclosed
+10%, assurance 81%, net-zero 76%, GRI 95%, TCFD 48%, ISSB 43%; weight
+sensitivity min Spearman rho 0.923.
+
 ## Session 2 — 2026-07-06 (Fable-assisted): full-registry URL validation
 
 **Goal:** verified report URLs for the 16 remaining registry companies
